@@ -1,22 +1,20 @@
-XANDY PROMPT STUDIO — ANDROID
+XANDY PROMPT STUDIO 2.0 — ANDROID
 
-Este projeto reúne em um único aplicativo:
-1) Catálogo de Estilos — 54 estilos, filtro de imagem e estilo para prompt.
-2) Xandy 3 Camadas — complemento narrativo + divindade + movimento artístico.
-3) Deuses 3C — catálogos masculino e feminino, incluindo versões femininas dos deuses masculinos.
+Novidades da versão preparada:
+- Novo módulo Personagens & Construtor.
+- 52 personagens no roster; 34 fichas/DNAs já carregados a partir de material canônico recuperado.
+- Masculinos e femininos com busca.
+- Fichas pendentes ficam claramente marcadas e nunca são inventadas.
+- Você pode editar/importar DNA diretamente no app; o app salva localmente sem recompilar o APK.
+- Botões: Usar no prompt, Copiar DNA, Copiar prompt, 3 Camadas, Deuses 3C e Estilos.
+- O prompt-base pode viajar de Personagens -> 3 Camadas/Deuses -> Estilos.
+- Marca Xandy AI Art + coroa e regra de sem textos extras permanecem disponíveis.
+- App segue offline.
+- versionCode 2 / versionName 2.0.0.
+- Workflow Android corrigido com o sdkmanager no caminho usado pela compilação bem-sucedida.
 
-FUNCIONAMENTO
-- Conteúdo 100% local/offline dentro do APK.
-- Botões de copiar usam a área de transferência nativa do Android.
-- O botão voltar do Android retorna ao menu principal.
+IMPORTANTE SOBRE DNA
+As fichas que não foram recuperadas integralmente ficam como PENDENTE. O app não inventa os campos ausentes. Basta abrir Editar DNA e colar a ficha canônica quando quiser.
 
-COMO GERAR O APK SEM ANDROID STUDIO
-1. Crie um repositório no GitHub.
-2. Envie TODO o conteúdo desta pasta android para a raiz do repositório.
-3. Abra Actions > Gerar APK Xandy Studio > Run workflow.
-4. Quando terminar, abra a execução e baixe o artefato “Xandy-Prompt-Studio-APK”.
-5. Dentro dele estará app-debug.apk.
-
-Pacote: com.xandyaiart.studio
-Nome: Xandy Studio
-Android mínimo: 7.0 (API 24)
+IMPORTANTE SOBRE ATUALIZAÇÕES ANDROID
+A versão atualmente instalada foi gerada como APK de debug pelo GitHub Actions. Em runners diferentes, a assinatura de debug pode mudar. Por segurança, esta pasta não inclui uma chave privada de assinatura fixa dentro do repositório público. Uma assinatura persistente deve ser configurada com segredo privado antes de distribuir atualizações por cima do app instalado.
