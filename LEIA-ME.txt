@@ -1,20 +1,18 @@
-XANDY PROMPT STUDIO 2.0 — ANDROID
+XANDY PROMPT STUDIO — ANDROID — V3
 
-Novidades da versão preparada:
-- Novo módulo Personagens & Construtor.
-- 52 personagens no roster; 34 fichas/DNAs já carregados a partir de material canônico recuperado.
-- Masculinos e femininos com busca.
-- Fichas pendentes ficam claramente marcadas e nunca são inventadas.
-- Você pode editar/importar DNA diretamente no app; o app salva localmente sem recompilar o APK.
-- Botões: Usar no prompt, Copiar DNA, Copiar prompt, 3 Camadas, Deuses 3C e Estilos.
-- O prompt-base pode viajar de Personagens -> 3 Camadas/Deuses -> Estilos.
-- Marca Xandy AI Art + coroa e regra de sem textos extras permanecem disponíveis.
-- App segue offline.
-- versionCode 2 / versionName 2.0.0.
-- Workflow Android corrigido com o sdkmanager no caminho usado pela compilação bem-sucedida.
+MÓDULOS
+1) Catálogo de Estilos — 54 estilos.
+2) Personagens — 200 fichas completas: 100 femininas + 100 masculinas.
+   • 56 personagens canônicos fornecidos por Xandy.
+   • 144 personagens originais criados para completar o catálogo.
+3) Deuses 3C — catálogo de divindades e composição em três camadas.
 
-IMPORTANTE SOBRE DNA
-As fichas que não foram recuperadas integralmente ficam como PENDENTE. O app não inventa os campos ausentes. Basta abrir Editar DNA e colar a ficha canônica quando quiser.
+ALTERAÇÃO DA V3
+- O módulo Xandy 3 Camadas foi removido por redundância.
+- A composição em três camadas permanece no Deuses 3C.
+- Todos os 200 personagens possuem DNA completo.
+- O catálogo identifica Canônico e Original V3.
 
-IMPORTANTE SOBRE ATUALIZAÇÕES ANDROID
-A versão atualmente instalada foi gerada como APK de debug pelo GitHub Actions. Em runners diferentes, a assinatura de debug pode mudar. Por segurança, esta pasta não inclui uma chave privada de assinatura fixa dentro do repositório público. Uma assinatura persistente deve ser configurada com segredo privado antes de distribuir atualizações por cima do app instalado.
+Pacote: com.xandyaiart.studio
+Versão: 3.0.0
+Android mínimo: 7.0 (API 24)
